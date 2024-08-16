@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="icon" href="Content-images/Main-Icons/logo_favicon.png" type="image/jpeg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-top-mid">
+        <div class="nav-up">
+          <img src="Content-images/Main-Icons/yt_logo.jpg" alt="logo" />
+          <div class="search">
+           <input type="text" placeholder="Search">
+           <div class="img-se-ic"> <img src="Content-images/Main-Icons/search-outline.png" alt="search-icon"></div>
+           <div class="mic"> <img src="Content-images/Main-Icons/Microphone.png" alt="microphone"></div>
+          </div>
+          <div class="th-ico">
+           <div class="cr-ico"><img src="Content-images/Main-Icons/create.png" alt="create"></div>
+           <div class="cr-ico"><img src="Content-images/Main-Icons/bell.png" alt="create"></div>
+           <div class="cr-image"><img src="Content-images/Profile/profile-naruto.jpg" alt="profile"></div>
+          </div>
+        </div>
+
+        </div>  
+        <div class="nav-down">
+          <div class="scroll-container">
+            <button class="scroll-button left" id="scrollLeftButton">&#10094;</button>
+            <div class="scroll-content">
+                <div class="item">all</div>
+                <div class="item">gaming</div>
+                <div class="item">news</div>
+                <div class="item">website</div>
+                <div class="item">Inventions</div>
+                <div class="item">astronomy</div>
+                <div class="item">website</div>
+                <div class="item">computer programming</div>
+                <div class="item">cricket</div>
+                <div class="item">website</div>
+                <div class="item">Inventions</div>
+                <div class="item">entertainment</div>
+                <div class="item">education</div>
+                <div class="item">animation</div>
+            </div>
+            <button class="scroll-button right" id="scrollRightButton">&#10095;</button>
+        </div>
+  
+        </div>
+      </nav>
+
+      <div class="nav-top-left">
+        <div class="home-menu"><div class="circ1"><div class="circ">  
+          <img src="Content-images/Main-Icons/menu.png" alt="menu" id="menuBtn">
+        </div></div></div>
+        <div class="nav-top-left-ico">
+            <div class="hom-left-ico"><img src="Content-images/Main-Icons/Home.png" alt="menu"><span class="left-ico">home</span> </div>
+            <div class="hom-left-ico"> <img src="Content-images/Main-Icons/Shorts.png" alt="menu"><span class="left-ico">shorts</span></div>
+            <div class="hom-left-ico"> <img src="Content-images/Main-Icons/Subscription.png" alt="menu"><span class="left-ico">subscriptions</span></div>
+              <div class="hom-left-ico"><img src="Content-images/Main-Icons/Your_channel.png" alt="menu"><span class="left-ico">you</span></div>
+              <div class="hom-left-ico"><img src="Content-images/Main-Icons/Downloads.png" alt="menu"><span class="left-ico">downloads</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- menu bar and its contents -->
+
+    <div id="menu" class="vertical-menu">
+      <div id="closeMenuBtn" class="close-menu-btn" >
+        <img src="Content-images/Main-Icons/menu.png" alt="menu" >
+        <img src="Content-images/Main-Icons/yt_logo.jpg" alt="logo">
+      </div>
+      <div class="menu-container">
+        
+          <div class="menu-item">
+              <img src="Content-images/Main-Icons/Home.png" alt="Icon-1">
+              <span>Home</span>
+          </div>
+          <div class="menu-item">
+              <img src="Content-images/Main-Icons/Shorts.png" alt="Icon-2">
+              <span>Shorts</span>
+          </div>
+          <div class="menu-item">
+              <img src="Content-images/Main-Icons/Subscription.png" alt="Icon-3">
+              <span>Subscription</span>
+          </div> 
+         <hr class="custom-hr">
+        <span class="menu-heading menu-item">You &nbsp; &#10095;</span>
+        <div class="menu-item">
+          <img src="Content-images/Main-Icons/Your_channel.png" alt="Icon-5">
+          <span>Your channel</span>
+      </div>
+      <div class="menu-item">
+        <img src="content-images/Main-Icons/History.png" alt="Icon-5">
+        <span>History</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Playlist.png" alt="Icon-5">
+      <span>Playlist</span>
+    </div>
+      <div class="menu-item">
+        <img src="content-images/Main-Icons/Your_vdos.png" alt="Icon-5">
+        <span>Your videos</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Watch_later.png" alt="Icon-5">
+      <span>Watch later</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Liked.png" alt="Icon-5">
+      <span>Liked</span>
+    </div>
+    <hr class="custom-hr">
+    <span class="menu-heading">Subscription</span>
+    <div class="menu-item">
+      <img src="content-images/Profile/1.jpg" alt="Icon-5" id="sub-rad">
+      <span>Shark Tank India </span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Profile/2.jpg" alt="Icon-5" id="sub-rad">
+      <span>Dr Bro</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Profile/3.jpg" alt="Icon-5" id="sub-rad">
+      <span>R.G Bucket List</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Profile/4.jpg" alt="Icon-5" id="sub-rad">
+      <span>NOT YOUR TYPE</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Profile/5.jpg" alt="Icon-5" id="sub-rad">
+      <span>Dhruv Rathee</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Profile/8.jpg" alt="Icon-5" id="sub-rad">
+      <span>Mr Bean</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Profile/7.jpg" alt="Icon-5" id="sub-rad">
+      <span>CodeWithHarry </span>
+    </div>
+    <div class="menu-item">
+      <span>❯ show more</span>
+    </div>
+    <hr class="custom-hr">
+    <span class="menu-heading">Explore</span>
+    <div class="menu-item">
+      <img src="Content-images/Main-Icons/Trending.png" alt="Icon-5">
+      <span>Trending</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Shopping.png" alt="Icon-5">
+      <span>Shopping</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Music.png" alt="Icon-5">
+      <span>Music</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Films.png" alt="Icon-5">
+      <span>Films</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Live.png" alt="Icon-5">
+      <span>Live</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Gaming.png" alt="Icon-5">
+      <span>Gaming</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/News.png" alt="Icon-5">
+      <span>News</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Sport.png" alt="Icon-5">
+      <span>Sport</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Course.png" alt="Icon-5">
+      <span>Course</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Fashion.png" alt="Icon-5">
+      <span>Fashion</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Podcast.png" alt="Icon-5">
+      <span>Podcast</span>
+    </div>
+    <hr class="custom-hr">
+    <span class="menu-heading">More from YouTube</span>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Premium.png" alt="Icon-5">
+      <span>Premium</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Studio.png" alt="Icon-5">
+      <span>Studio</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Youtube_music.png" alt="Icon-5">
+      <span>Youtube_music</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Kids.png" alt="Icon-5">
+      <span>Kids</span>
+    </div>
+    <hr class="custom-hr">
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Setting.png" alt="Icon-5">
+      <span>Setting</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Report.png" alt="Icon-5">
+      <span>Report</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Help.png" alt="Icon-5">
+      <span>Help</span>
+    </div>
+    <div class="menu-item">
+      <img src="content-images/Main-Icons/Feedback.png" alt="Icon-5">
+      <span>Feedback</span>
+    </div> <hr class="custom-hr">
+    <pre class="copy-right">
+
+      About Press Copyright
+      Contact usCreatorAdvertise
+      Developers
+
+      Terms Privacy Policy & Safety
+      How YouTube works
+      Test new features
+
+      © 2024 Google LLC</pre>
+      </div>
+    </div>
+    <div id="overlay" class="overlay"></div>
+    
+  <!-- video contents-->
+
+  <div class="content">
+    <div class="video-container">
+      <div class="video-item">
+        <video src="Content-images/Videos/1.mp4" muted poster="Content-images/Thumbnail/1.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+          <img src="Content-images/Profile/1.jpg" alt="Profile Photo">
+          <div class="text">
+            <p class="title">'Bottom Line Sprays' का Visual Demo देखकर सभी Sharks ने क्यों छुपाया अपना Face? | 'No Deal' Pitches</p>
+            <p class="vdo-info">Shark Tank India</p>
+            <p class="vdo-info">3.6K views • 10 hours ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-item">
+        <video src="Content-images/Videos/2.mp4" muted poster="Content-images/Thumbnail/2.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+          <img src="Content-images/Profile/2.jpg" alt="Profile Photo">
+          <div class="text">
+            <p class="title">Top Of The Mountain Russian Adventure | Sochi | Russia 5 | Dr Bro Kannada</p>
+            <p class="vdo-info">Dr Bro</p>
+            <p class="vdo-info">1.4M • views
+              2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-item">
+        <video src="Content-images/Videos/3.mp4" muted poster="Content-images/Thumbnail/3.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+          <img src="Content-images/Profile/3.jpg" alt="Profile Photo">
+          <div class="text">
+            <p class="title">FIRST LOVE (Part-2) | Official trailer |@KirtiChow</p>
+            <p class="vdo-info">R.G Bucket List</p>
+            <p class="vdo-info">12M views • 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-item">
+        <video src="Content-images/Videos/4.mp4" muted poster="Content-images/Thumbnail/4.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+          <img src="Content-images/Profile/4.jpg" alt="Profile Photo">
+          <div class="text">  
+            <p class="title">Every Indian YouTuber Ever | Secret Trailer
+              </p>
+            <p class="vdo-info">NOT YOUR TYPE</p>
+            <p class="vdo-info">8.4M views • 9 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-item">
+        <video src="Content-images/Videos/5.mp4" muted poster="Content-images/Thumbnail/5.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+          <img src="Content-images/Profile/5.jpg" alt="Profile Photo">
+          <div class="text">
+            <p class="title">Budget 2022 Analysis | What did Middle Class Get? | Pros and Cons | Dhruv Rathee
+              o</p>
+            <p class="vdo-info">Dhruv Rathee</p>
+            <p class="vdo-info">2.3M views • 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-item">
+        <video src="Content-images/Videos/6.mp4" muted poster="Content-images/Thumbnail/6.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+        <img src="Content-images/Profile/6.jpg" alt="Profile Photo">
+        <div class="text">
+          <p class="title">Vऐसे करो हर काम पर Focus | How To Stay Focused & Keep Winning? | Anjum Moudgil | Josh Talks Hindi</p>
+          <p class="vdo-info">जोश Talks</p>
+          <p class="vdo-info">102K views • 6 years ago</p>
+        </div>
+      </div>
+      </div>
+      <div class="video-item">
+        <video src="Content-images/Videos/7.mp4" muted poster="Content-images/Thumbnail/7.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+        <img src="Content-images/Profile/7.jpg" alt="Profile Photo">
+        <div class="text">
+          <p class="title">Exercise 17 - Design This Layout | Sigma Web Development Course - Tutorial #100</p>
+          <p class="vdo-info">CodeWithHarry</p>
+          <p class="vdo-info">29K views • 6 months ago</p>
+        </div>
+      </div>
+      </div>
+      <div class="video-item">
+        <video src="Content-images/Videos/8.mp4" muted poster="Content-images/Thumbnail/8.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+        <img src="Content-images/Profile/8.jpg" alt="Profile Photo">
+        <div class="text">
+          <p class="title">Cooking Spaghetti | Mr. Bean Official Cartoon</p>
+          <p class="vdo-info">Mr Bean</p>
+          <p class="vdo-info">14M views • 14 years agoo</p>
+        </div>
+      </div>
+      </div>
+      <div class="video-item">
+        <video src="Content-images/Videos/9.mp4" muted poster="Content-images/Thumbnail/9.jpg"></video>
+        <button class="mute-btn" aria-label="Mute/Unmute">🔇</button>
+        <div class="caption">
+        <img src="Content-images/Profile/9.jpg" alt="Profile Photo">
+        <div class="text">
+          <p class="title">RAP VS SHAYARI PART 2 | Angry Prash</p>
+          <p class="vdo-info">Angry Prash</p>
+          <p class="vdo-info">4.5M views • 3 years ago</p>
+        </div>
+      </div>
+      </div>
+      
+      <!-- Add more video if needed -->
+    </div>
+  </div>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
